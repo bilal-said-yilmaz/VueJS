@@ -8,8 +8,4 @@ createApp({
       website:"https://www.linkedin.com/in/bilal-said-y%C4%B1lmaz-a93a212a5/"
         }
     },
-    methods:{
-        
-    }
-   
 }).mount("#app");
