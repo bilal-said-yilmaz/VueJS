@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vue JS Denemesi</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+</head>
+<body>
+    <div id="app">
+        <h1>Çift Yönde Veri İşleme</h1>
+        <label for="name">İsim:</label>
+        <input type="text" v-model="name">
+        <label for="age">Yaş:</label>
+        <input type="text" v-model="age"r>
+        <hr>
+        <p>İSİM: {{name}}</p>
+        <p>YAŞ: {{age}}</p>
+    </div>
+</body>
+<script src="app5.js"></script>
+</html>
