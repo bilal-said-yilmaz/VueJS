@@ -1,0 +1,35 @@
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vue JS Denemesi</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    </head>
+
+    <body>  
+        <div id="app" >
+            <h1>Computed Properties</h1>
+            <button v-on:click="a++">A'ya 1 ekle</button>
+            <button v-on:click="a--">A'dan 1 çıkar</button>
+            <p>A = {{a}} </p>
+            <hr>
+            <button v-on:click="b++">B'ye 1 ekle</button>
+            <button v-on:click="b--">B'den 1 çıkar</button>
+            <p>B = {{b}} </p>
+            <hr>
+            <button v-on:click="c++">C'ye 1 ekle</button>
+            <button v-on:click="c--">C'den 1 çıkar</button>
+            <p>C = {{c}} </p>
+            <hr>
+            <p>A + B = {{ab}}</p>
+            <p>A + C = {{ac}}</p>
+            <p>B + C = {{bc}}</p>
+            <hr>
+            <p>A + B = {{ab_()}}</p>
+            <p>A + C = {{ac_()}}</p>
+            <p>B + C = {{bc_()}}</p>
+        </div>
+    </body>
+    <script src="app6.js"></script>
+</html>
