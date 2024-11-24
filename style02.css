@@ -1,0 +1,19 @@
+span{
+    background:rgb(133, 11, 11) ;
+    display: inline-block;
+    padding: 10px;
+    color: rgb(255, 176, 64);
+    margin: 10px 0;
+}
+.aktif span{
+    background:rgb(255, 176, 64) ;
+    display: inline-block;
+    padding: 10px;
+    color: rgb(133, 11, 11);
+    margin: 10px 0;
+}
+
+.ekstra span::after{
+    content: "SATILIK , ARSA , 5.5 DÖNÜM , 2 000 000 TL";
+    margin-left: 10px 0;
+}
