@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vue JS</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body id="app">
+    <h1>DYNAMIC CSS</h1>
+    <div v-on:click="aktiflik= !aktiflik" v-bind:class="{aktif: aktiflik}"> 
+        <span>Bizimle iletişime geçin</span>
+    </div>
+    <div v-on:click="ekstra= !ekstra" v-bind:class="{ekstra: ekstra}"> 
+        <span>İlan içeriğini görmek için tıklayınız : </span>
+    </div>
+    <div>
+        <hr>
+        <button v-on:click="ekstra= !ekstra" >extrayı değiştir</button>
+        <button v-on:click="aktiflik= !aktiflik" >aktifliği değiştir</button>
+    </div>
+    <hr>
+    <div v-on:click="aktiflik= !aktiflik,ekstra= !ekstra" v-bind:class="computed_ile">
+        <span >Computed Propertie ile : </span>
+    </div>
+</body>
+<script src="app7.js"></script>
+</html>
