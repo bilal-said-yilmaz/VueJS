@@ -1,1 +1,1 @@
-Let's learn vueJS
+Let's learn VueJS
