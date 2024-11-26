@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="x-UA-compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Vue JS</title>
+        <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    </head>
+
+    <body>
+        <div id="app-one" >
+            <b><h1>{{greet}}</h1></b>
+            <h2>{{title}}</h2>
+        </div>
+
+        <div id="app-two" >
+            <b><h1>{{greet}}</h1></b>
+            <h2>{{title}}</h2>
+            <button v-on:click="{changeTitle}">Change the first title</button>
+            <button v-on:click="rechange()">Change it back</button>
+        </div>
+    </body>
+<script src="app10.js"></script>
+</html>
