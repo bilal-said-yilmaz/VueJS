@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vue JS Denemesi</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    </head>
+
+    <body id="app">
+        <!--<div>
+        <ul>
+            <li v-for="(ilan,index) in ilanlar">{{index+1}}. İlan: {{ilan.name}} - - - > Fiyat: {{ilan.fiyat}}</li>
+        </ul>
+        </div>
+        -->
+
+        <div v-for="(ilan,index) in ilanlar">
+            <i><h1> {{index+1}}. İlanımız : </h1></i>
+            <h2>Genel Bilgiler: {{ilan.name}}</h2>
+            <h3>Fiyat: {{ilan.fiyat}}</h3>
+            <br>
+        </div>
+        
+        <!-- Buradaki fark inspect edildiğinde divler tek tek görünmek yerine içerisindeki h1 h2 h3'ler görünüyor -->
+        <template v-for="(ilan,index) in ilanlar">
+            <i><h1> {{index+1}}. İlanımız : </h1></i>
+            <h2>Genel Bilgiler: {{ilan.name}}</h2>
+            <h3>Fiyat: {{ilan.fiyat}}</h3>
+            <br>
+        </template>
+    </body>
+    <script src="app9.js"></script>
+</html>
