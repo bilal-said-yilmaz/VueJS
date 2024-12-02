@@ -2,9 +2,6 @@ const { createApp } = Vue;
 
 var one = createApp({
     data() {
-        return {
-            
-        }
     },
 });
 one.component("element", {
@@ -28,9 +25,3 @@ one.component("element", {
     },
 });
 one.mount("#app-one");
-
-var two = createApp({
-    data() {
-        return {}
-    },
-}).mount("#app-two");
