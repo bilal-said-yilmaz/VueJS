@@ -12,7 +12,7 @@ one.component("element", {
     `,
     data() {
         return {
-            name: "Fiyatı gör"
+            name: "See the price"
         }
     },
     methods: {
@@ -20,7 +20,7 @@ one.component("element", {
             this.name = "2.000.000"
         },
         rechangeName(){
-            this.name ="Fiyatı gör"
+            this.name ="See the price"
         },
     },
 });
