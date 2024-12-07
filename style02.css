@@ -1,15 +1,15 @@
 span{
-    background:rgb(133, 11, 11) ;
+    background:rgb(255, 176, 64);
     display: inline-block;
     padding: 10px;
-    color: rgb(255, 176, 64);
+    color: rgb(133, 11, 11) ;
     margin: 10px 0;
 }
 .aktif span{
-    background:rgb(255, 176, 64) ;
+    background:rgb(133, 11, 11) ;
     display: inline-block;
     padding: 10px;
-    color: rgb(133, 11, 11);
+    color: rgb(255, 176, 64) ;
     margin: 10px 0;
 }
 
