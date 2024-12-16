@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="x-UA-compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Vue JS</title>
+        <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    </head>
+
+    <body >
+       <div id="app">
+        <h2>Referances</h2>
+        <input type="text" ref="content">
+        <button v-on:click="readRefs">Read Referances</button>
+        <div ref="content2">
+            <p>Content2</p>
+        </div>
+        </div>
+    </body>
+    <script src="app12.js"></script>
+</html>
