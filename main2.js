@@ -1,9 +1,9 @@
 import { createApp } from 'vue'
-import App from './App2.vue'
-import Header from './header.vue'
+import App from './App.vue'
+import Footer from './footer.vue'
 
-//const app = createApp(App)
-//app.component("app-header",Header)
-//app.mount('#app')
+const app = createApp(App)
 
-createApp(App).mount('#app')
+app.component("app-footer",Footer)
+
+app.mount('#app')
